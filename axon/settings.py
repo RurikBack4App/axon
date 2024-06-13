@@ -150,7 +150,7 @@ if os.environ.get('DJANGO_ENV') == 'production':
     }
 
 # Database Connection Pooling
-DATABASES['default']['CONN_MAX_AGE'] = 1200
+# DATABASES['default']['CONN_MAX_AGE'] = 1200
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
